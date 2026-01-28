@@ -43,13 +43,10 @@
   text-decoration: none;
 }
  
-.navbar41-thq-action2-elm1 {
-  width: 117px;
+.navbar41-thq-action1-elm2 {
+  width: 118px;
   display: flex;
   flex-direction: row;
-}
- 
-.navbar41-link {
   text-decoration: none;
 }
  
@@ -119,7 +116,7 @@
   display: contents;
 }
  
-.navbar41-text2 {
+.navbar41-text3 {
   display: inline-block;
 }
  
@@ -127,7 +124,7 @@
   display: contents;
 }
  
-.navbar41-text3 {
+.navbar41-text4 {
   display: inline-block;
 }
  
@@ -135,7 +132,7 @@
   display: contents;
 }
  
-.navbar41-text4 {
+.navbar41-text5 {
   display: inline-block;
 }
  
@@ -143,7 +140,7 @@
   display: contents;
 }
  
-.navbar41-text5 {
+.navbar41-text6 {
   display: inline-block;
 }
  
@@ -151,7 +148,7 @@
   display: contents;
 }
  
-.navbar41-text6 {
+.navbar41-text7 {
   display: inline-block;
 }
  
@@ -159,7 +156,7 @@
   display: contents;
 }
  
-.navbar41-text7 {
+.navbar41-text8 {
   display: inline-block;
 }
  
@@ -167,7 +164,7 @@
   display: contents;
 }
  
-.navbar41-text8 {
+.navbar41-text9 {
   display: inline-block;
 }
  
@@ -176,15 +173,11 @@
     padding-left: 32px;
     padding-right: 32px;
   }
-  .navbar41-thq-desktop-menu-elm {
-    display: none;
-  }
   .navbar41-thq-buttons-elm1 {
     width: 269px;
     height: 65px;
   }
   .navbar41-thq-burger-menu-elm {
-    display: flex;
     align-items: center;
     justify-content: center;
   }
@@ -194,11 +187,35 @@
   .navbar41-thq-navbar-interactive-elm {
     padding: var(--dl-layout-space-unit);
   }
+  .navbar41-thq-desktop-menu-elm {
+    display: none;
+  }
   .navbar41-thq-buttons-elm1 {
-    width: 224px;
-    height: 23px;
+    width: auto;
+    height: auto;
+  }
+  .navbar41-thq-action1-elm1 {
+    width: auto;
+  }
+  .navbar41-text1 {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+  .navbar41-thq-action1-elm2 {
+    width: auto;
+    background-color: transparent;
+  }
+  .navbar41-text2 {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+  .navbar41-thq-burger-menu-elm {
+    display: flex;
   }
   .navbar41-thq-mobile-menu-elm {
     padding: var(--dl-layout-space-unit);
+  }
+  .navbar41-text9 {
+    color: #000000;
   }
 }

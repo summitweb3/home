@@ -344,7 +344,7 @@
   color: var(--dl-color-secondary-500);
 }
 
-.counter-wrapper-gc3g {
+.counter-wrapper-oip6 {
   display: contents;
 }
  
@@ -365,7 +365,7 @@
   color: var(--dl-color-secondary-500);
 }
 
-.counter-wrapper-lk9b {
+.counter-wrapper-04xs {
   display: contents;
 }
  
@@ -612,6 +612,15 @@
 @media(max-width: 767px) {
   .footer-text2 {
     text-align: center;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .footer-text2 {
+    color: var(--dl-color-secondary-500);
+    margin-top: var(--dl-layout-space-halfunit);
+    text-align: center;
+    margin-bottom: var(--dl-layout-space-halfunit);
   }
 }
 
