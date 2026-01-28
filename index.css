@@ -229,7 +229,7 @@
 }
  
 .gallery14-thq-gallery3-elm {
-  width: 100%;
+  width: auto;
   height: auto;
   display: flex;
   overflow: hidden;
@@ -342,7 +342,7 @@
   display: contents;
 }
  
-.home-text33 {
+.home-text32 {
   display: inline-block;
 }
  
@@ -350,7 +350,7 @@
   display: contents;
 }
  
-.home-text40 {
+.home-text38 {
   display: inline-block;
 }
  
@@ -358,7 +358,7 @@
   display: contents;
 }
  
-.home-text41 {
+.home-text39 {
   display: inline-block;
 }
  
@@ -366,7 +366,7 @@
   display: contents;
 }
  
-.home-text42 {
+.home-text40 {
   display: inline-block;
 }
  
@@ -374,7 +374,7 @@
   display: contents;
 }
  
-.home-text43 {
+.home-text41 {
   display: inline-block;
 }
  
@@ -382,8 +382,15 @@
   display: contents;
 }
  
-.home-text44 {
+.home-text42 {
   display: inline-block;
+}
+ 
+.gallery14root-class-name {
+  width: auto;
+  padding-top: var(--dl-layout-space-doubleunit);
+  padding-bottom: var(--dl-layout-space-doubleunit);
+  background-color: #003057;
 }
  
 @media(max-width: 991px) {
@@ -735,11 +742,9 @@
   position: relative;
   align-items: center;
   padding-top: var(--dl-layout-space-tripleunit);
-  padding-left: var(--dl-layout-space-doubleunit);
-  padding-right: var(--dl-layout-space-doubleunit);
   flex-direction: column;
   padding-bottom: var(--dl-layout-space-fiveunits);
-  background-color: var(--dl-color-pimary-900);
+  background-color: #003057;
 }
  
 .home-container3 {
@@ -748,6 +753,7 @@
   max-width: 1320px;
   align-items: center;
   flex-direction: column;
+  padding-bottom: var(--dl-layout-space-doubleunit);
 }
  
 .home-thq-container-elm {
@@ -760,12 +766,17 @@
 }
  
 .home-text21 {
-  color: var(--dl-color-secondary-400);
+  color: var(--dl-color-theme-secondary1);
+  font-size: 1.875rem;
   text-align: center;
+  font-weight: 700;
+  text-transform: none;
+  text-decoration: none;
 }
  
 .home-text22 {
-  color: var(--dl-color-secondary-700);
+  fill: var(--dl-color-gray-900);
+  color: var(--dl-color-gray-900);
   text-align: center;
   margin-bottom: 0.25rem;
 }
@@ -773,15 +784,6 @@
 .home-text23 {
   display: inline;
   font-family: "Oxygen";
-}
- 
-.home-container4 {
-  width: 751px;
-  height: 697px;
-}
- 
-.home-container5 {
-  display: contents;
 }
  
 .home-image3 {
@@ -794,29 +796,13 @@
   object-fit: cover;
 }
  
-.home-thq-section3-elm {
-  flex: 0 0 auto;
-  width: 100%;
-  display: flex;
-  position: relative;
-  align-items: center;
-  padding-top: var(--dl-layout-space-fiveunits);
-  padding-left: var(--dl-layout-space-tripleunit);
-  padding-right: var(--dl-layout-space-tripleunit);
-  flex-direction: column;
-  padding-bottom: var(--dl-layout-space-fiveunits);
-  justify-content: center;
-  background-color: var(--dl-color-secondary-100);
+.home-container4 {
+  width: 751px;
+  height: 697px;
 }
  
-.home-image4 {
-  top: auto;
-  left: auto;
-  right: 0px;
-  width: 100%;
-  bottom: -1px;
-  position: absolute;
-  object-fit: cover;
+.home-container5 {
+  display: contents;
 }
  
 .home-fragment17 {
@@ -831,7 +817,7 @@
   display: contents;
 }
  
-.home-text33 {
+.home-text32 {
   display: inline-block;
 }
  
@@ -839,7 +825,7 @@
   display: contents;
 }
  
-.home-text40 {
+.home-text38 {
   display: inline-block;
 }
  
@@ -847,7 +833,7 @@
   display: contents;
 }
  
-.home-text41 {
+.home-text39 {
   display: inline-block;
 }
  
@@ -855,7 +841,7 @@
   display: contents;
 }
  
-.home-text42 {
+.home-text40 {
   display: inline-block;
 }
  
@@ -863,7 +849,7 @@
   display: contents;
 }
  
-.home-text43 {
+.home-text41 {
   display: inline-block;
 }
  
@@ -871,12 +857,18 @@
   display: contents;
 }
  
-.home-text44 {
+.home-text42 {
   display: inline-block;
 }
  
-.home-fragment24 {
-  display: contents;
+.home-image4 {
+  top: auto;
+  left: auto;
+  right: 0px;
+  width: 100%;
+  bottom: -1px;
+  position: absolute;
+  object-fit: cover;
 }
  
 .home-link {
@@ -907,19 +899,12 @@
   margin-right: 4px;
 }
  
-.home-text55 {
+.home-text51 {
   color: white;
   font-size: 13px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
-}
- 
-@media(max-width: 991px) {
-  .home-thq-section3-elm {
-    padding-left: var(--dl-layout-space-doubleunit);
-    padding-right: var(--dl-layout-space-doubleunit);
-  }
 }
  
 @media(max-width: 767px) {
@@ -944,11 +929,5 @@
   }
   .home-container4 {
     width: 400px;
-  }
-  .home-thq-section3-elm {
-    width: 100%;
-  }
-  .home-text49 {
-    width: auto;
   }
 }

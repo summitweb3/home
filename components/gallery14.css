@@ -1,5 +1,5 @@
 .gallery14-thq-gallery3-elm {
-  width: 100%;
+  width: auto;
   height: auto;
   display: flex;
   overflow: hidden;
@@ -154,6 +154,13 @@
  
 .gallery14-text22 {
   display: inline-block;
+}
+ 
+.gallery14root-class-name {
+  width: auto;
+  padding-top: var(--dl-layout-space-doubleunit);
+  padding-bottom: var(--dl-layout-space-doubleunit);
+  background-color: #003057;
 }
  
 @media(max-width: 991px) {
