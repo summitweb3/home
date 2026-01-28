@@ -4,4 +4,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: https://notus-pro-nzzpgu.teleporthq.app/sitemap.xml
+Sitemap: https://summit.teleporthq.app/sitemap.xml
